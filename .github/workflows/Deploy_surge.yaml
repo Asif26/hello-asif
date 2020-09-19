@@ -36,6 +36,8 @@ jobs:
       - name: Surg Installition
         run: npm install -g surge
         
+      - name: insatll plugin
+        run: npm install eslint-plugin-react --save-dev  
       - name: creat build
         run: yarn build
         
