@@ -40,4 +40,4 @@ jobs:
         run: surge ./build
         
       - name: Deploy surge
-        run: surge ./build http://hello-asif.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://hello-asif.surge.sh/ --token ${{secrets.SURGE_ASIF}}
