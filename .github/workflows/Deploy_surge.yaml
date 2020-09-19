@@ -35,7 +35,9 @@ jobs:
           
       - name: Surg Installition
         run: npm install -g surge
+        
       - name: creat build
         run: surge ./build
+        
       - name: Deploy surge
         run: surge ./build http://hello-asif.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
